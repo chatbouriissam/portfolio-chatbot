@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 15 23 42;
+    --accent: 59 130 246;
+    --accent-dark: 37 99 235;
+    --border: 226 232 240;
+    --muted: 241 245 249;
+  }
+
+  .dark {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+    --accent: 59 130 246;
+    --accent-dark: 96 165 250;
+    --border: 51 65 85;
+    --muted: 30 41 59;
+  }
+
+  body {
+    @apply bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-50;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Animations personnalisées */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 dark:bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-slate-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400 dark:bg-slate-500;
+}
+
+/* Markdown styles */
+.markdown {
+  @apply text-sm leading-relaxed;
+}
+
+.markdown p {
+  @apply mb-3;
+}
+
+.markdown strong {
+  @apply font-semibold text-slate-900 dark:text-slate-100;
+}
+
+.markdown ul {
+  @apply list-disc pl-5 mb-3 space-y-1;
+}
+
+.markdown ol {
+  @apply list-decimal pl-5 mb-3 space-y-1;
+}
+
+.markdown li {
+  @apply mb-1;
+}
+
+.markdown code {
+  @apply bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-xs font-mono;
+}
+
+.markdown a {
+  @apply text-accent hover:text-accent-dark underline;
+}

@@ -1,0 +1,124 @@
+{
+  "identity": {
+    "name": "Issam Chatbouri",
+    "title": "Étudiant ingénieur en Génie Informatique | Développeur IA & Full-Stack",
+    "location": "Tunis, Tunisie",
+    "phone": "+216 26 791 923",
+    "email": "chatbouri.issam@gmail.com",
+    "linkedin": "https://linkedin.com/in/chatbouri-issam-7709b8325",
+    "status": "Disponible pour un stage PFE de 6 mois à partir de février 2027 (IA & Data Science)"
+  },
+  "profile": "Étudiant en 3e année du cycle ingénieur en génie informatique à l'ENICarthage, orienté IA, Data Science et développement logiciel. Expérience pratique en Python, Machine Learning et Deep Learning. Compétences en intégration de modèles IA et développement d'API avec FastAPI et Spring Boot.",
+  "experiences": [
+    {
+      "title": "Développeur Java – Stagiaire",
+      "company": "LOGITECHNICA",
+      "location": "Ariana, Tunisie",
+      "period": "juil. 2026 – sep. 2026",
+      "description": [
+        "Développement d'un système de signature électronique de factures au format TEIF (Tunisian Electronic Invoice Format), avec intégration de signatures numériques via certificats qualifiés",
+        "Transmission des factures signées vers la plateforme Tunisie TradeNet (TTN) par API REST, avec gestion des erreurs de soumission"
+      ]
+    },
+    {
+      "title": "Développeur Full-Stack – Stagiaire",
+      "company": "Swallow Tech",
+      "location": "Sousse, Tunisie",
+      "period": "juil. 2025 – sep. 2025",
+      "description": [
+        "Interfaces Angular et back-end Node.js d'une plateforme bancaire, intégration et gestion d'une base Oracle",
+        "Conception et exécution de tests fonctionnels pour garantir la fiabilité de la plateforme"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MalOlivier Detector",
+      "subtitle": "Détection de maladies de l'olivier par Deep Learning",
+      "stack": ["Python", "TensorFlow", "CNN MobileNetV2", "FastAPI", "Spring Boot", "Android", "MySQL", "JWT"],
+      "description": [
+        "Classification d'images avec un CNN MobileNetV2",
+        "Préparation des données (nettoyage, augmentation, séparation entraînement/validation)",
+        "Intégration du modèle dans un microservice FastAPI connecté à Spring Boot"
+      ],
+      "github": "https://github.com/issam-chatbouri/malolivier-detector"
+    },
+    {
+      "name": "EcoSmart BEMS",
+      "subtitle": "Système intelligent de gestion énergétique",
+      "stack": ["Python", "FastAPI", "scikit-learn", "Isolation Forest", "PostgreSQL", "Docker"],
+      "description": [
+        "Détection d'anomalies de consommation (Isolation Forest)",
+        "Monitoring en temps réel, alertes automatiques",
+        "API REST pour l'intégration avec d'autres systèmes"
+      ],
+      "github": "https://github.com/issam-chatbouri/ecosmart-bems"
+    },
+    {
+      "name": "Plateforme de Gestion et de Suivi des Livraisons",
+      "subtitle": "Application de tracking en temps réel",
+      "stack": ["Spring Boot", "API REST", "JWT", "WebSocket"],
+      "description": [
+        "Supervision des livraisons en temps réel via WebSocket",
+        "API sécurisée avec authentification JWT",
+        "Messagerie instantanée et tableau de bord de suivi"
+      ],
+      "github": "https://github.com/issam-chatbouri/delivery-tracking"
+    },
+    {
+      "name": "Plateforme de Téléconsultation Médicale",
+      "subtitle": "Système de gestion de consultations en ligne",
+      "stack": ["Spring Boot", "Angular", "API REST", "SQL"],
+      "description": [
+        "Gestion des patients, consultations et dossiers médicaux",
+        "Interface utilisateur moderne avec Angular",
+        "Base de données relationnelle sécurisée"
+      ],
+      "github": "https://github.com/issam-chatbouri/telemedicine"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Cycle Ingénieur Génie Informatique",
+      "school": "ENICarthage",
+      "location": "Ariana, Tunisie",
+      "period": "sept. 2024 – juin 2027"
+    },
+    {
+      "degree": "Cycle Préparatoire Physique & Chimie",
+      "school": "IPEIM",
+      "location": "Monastir, Tunisie",
+      "period": "sept. 2022 – juin 2024"
+    }
+  ],
+  "skills": {
+    "ia_ml": ["Python", "TensorFlow", "scikit-learn", "Machine Learning", "Deep Learning", "CNN", "MobileNetV2", "Isolation Forest", "Classification d'images", "Détection d'anomalies"],
+    "languages": ["Java", "Python", "JavaScript", "TypeScript", "SQL", "C", "C++"],
+    "development": ["Angular", "Spring Boot", "Node.js", "FastAPI", "HTML5", "CSS3", "API REST", "MVC"],
+    "databases": ["MySQL", "Oracle", "PostgreSQL"],
+    "tools": ["Git", "GitHub", "Docker", "VS Code", "Figma", "Linux", "POO", "Agile", "UML", "Tests fonctionnels", "JWT", "WebSocket"]
+  },
+  "languages": {
+    "french": "B2",
+    "english": "B2",
+    "german": "Intermédiaire"
+  },
+  "certifications": [
+    {
+      "name": "Generative AI with Diffusion Models",
+      "issuer": "NVIDIA",
+      "type": "Certificate of Competency",
+      "year": "2026"
+    },
+    {
+      "name": "AWS Academy Cloud Foundations",
+      "issuer": "AWS Academy",
+      "year": "2026"
+    },
+    {
+      "name": "Cisco Certified Network Associate Routing and Switching (CCNA)",
+      "issuer": "Cisco",
+      "year": "2026"
+    }
+  ]
+}
